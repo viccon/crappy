@@ -1,7 +1,8 @@
 ﻿  crappy.cpp
-  overlay.cpp
-  Utils.cpp
+crappy.cpp(231): warning C4312: 'reinterpret_cast': conversion from 'int' to 'HANDLE' of greater size
   Generating code
-  All 333 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  41 of 333 functions (12.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    6 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   crappy.vcxproj -> C:\Users\-rwx------\Desktop\crappy\x64\Release\crappy.exe

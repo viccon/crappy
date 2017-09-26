@@ -221,8 +221,16 @@ WPARAM MainLoop()
 int main(int argc, char* argv[])
 {
 	cout << hex << uppercase;
-	//mem = new CMem(reinterpret_cast<HANDLE>(atoi(argv[1])));
-	mem = new CMem(reinterpret_cast<HANDLE>(argv[1]));
+	mem = new CMem(reinterpret_cast<HANDLE>(atoi(argv[1])));
+
+	/*
+	global::pUWorld = mem->RPM<DWORD_PTR>(mem->GetBase() + 0x37D67A8, 8);
+	global::pGameInstance = mem->RPM<DWORD_PTR>(global::pUWorld + 0x140, 8);
+	global::pLocalPlayerArray = mem->RPM<DWORD_PTR>(global::pGameInstance + 0x38, 8);
+	global::pLocalPlayer = mem->RPM<DWORD_PTR>(global::pLocalPlayerArray + 0x0, 8);
+	global::pViewportClient = mem->RPM<DWORD_PTR>(global::pLocalPlayer + 0x58, 8);
+	*/
+
 	atexit(Shutdown);
 	SetupWindow();
 	CacheNames();
