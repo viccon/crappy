@@ -1,0 +1,5 @@
+﻿overlay.obj : error LNK2019: unresolved external symbol _Direct3DCreate9@4 referenced in function "void __cdecl initD3D(struct HWND__ *)" (?initD3D@@YAXPAUHWND__@@@Z)
+overlay.obj : error LNK2019: unresolved external symbol _D3DXCreateFontA@48 referenced in function "void __cdecl initD3D(struct HWND__ *)" (?initD3D@@YAXPAUHWND__@@@Z)
+overlay.obj : error LNK2019: unresolved external symbol _D3DXCreateLine@8 referenced in function "void __cdecl initD3D(struct HWND__ *)" (?initD3D@@YAXPAUHWND__@@@Z)
+overlay.obj : error LNK2019: unresolved external symbol __imp__DwmExtendFrameIntoClientArea@8 referenced in function "long __stdcall WindowProc(struct HWND__ *,unsigned int,unsigned int,long)" (?WindowProc@@YGJPAUHWND__@@IIJ@Z)
+C:\Users\-rwx------\Desktop\crappy\Debug\crappy.exe : fatal error LNK1120: 4 unresolved externals
