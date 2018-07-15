@@ -1,5 +1,7 @@
 crappy
 
+https://worthdoingbadly.com/xnuqemu/
+
 Get decrypted kernelcache
 
 URL for iOS 10 Beta 1 for iPhone 6s taken from http://pastebin.com/FRMfanmT
